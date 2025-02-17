@@ -7,6 +7,9 @@ export default defineConfig({
   outDir: 'dist',
   extensionApi: 'chrome',
   modules: ['@wxt-dev/module-react'],
+  imports: {
+    eslintrc: { enabled: true },
+  },
   manifest: {
     name: 'Watsonize',
   },

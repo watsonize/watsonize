@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-      <div></div>
-      <h1>WXT + React Sidepan</h1>
+      <div className=""></div>
+      <h1 className="text-2xl">WXT + React Sidepan</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

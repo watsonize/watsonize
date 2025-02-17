@@ -26,12 +26,16 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.0.6",
     "@types/chrome": "^0.0.280",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@wxt-dev/module-react": "^1.1.3",
     "prettier": "3.5.1",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.6",
     "typescript": "^5.7.3",
+    "vite": "^5.4.14",
     "wxt": "^0.19.27"
   }
 }

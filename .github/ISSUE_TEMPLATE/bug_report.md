@@ -4,7 +4,6 @@ about: Create a report to help us improve
 title: ''
 labels: bug
 assignees: valentin-vogel
-
 ---
 
 **Describe the bug**
@@ -12,6 +11,7 @@ A clear and concise description of what the bug is.
 
 **To Reproduce**
 Steps to reproduce the behavior:
+
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
@@ -24,9 +24,10 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Browser (please complete the following information):**
- - OS and version: [e.g. windows, iOS ]
- - Browser and version [e.g. chrome, firefox]
- - Extension version of Watsonize, visible on About page
+
+- OS and version: [e.g. windows, iOS ]
+- Browser and version [e.g. chrome, firefox]
+- Extension version of Watsonize, visible on About page
 
 **Additional context**
 Add any other context about the problem here.

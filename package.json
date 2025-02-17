@@ -16,6 +16,7 @@
     "compile": "tsc --noEmit",
     "postinstall": "wxt prepare",
     "fmt": "prettier --write .",
+    "fmt:check": "prettier --check .",
     "clean:wxt": "pnpm wxt clean",
     "clean:pnpm": "rm -rf node_modules && rm -rf pnpm-lock.yaml",
     "clean:dist": "rm -rf dist",

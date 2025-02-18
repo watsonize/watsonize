@@ -6,8 +6,7 @@ function App() {
 
   return (
     <>
-      <div className=""></div>
-      <h1 className="text-2xl">WXT + React Sidepan</h1>
+      <h1 className="text-2xl">{i18n.t('welcome')}</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

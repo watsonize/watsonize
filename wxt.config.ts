@@ -6,12 +6,13 @@ export default defineConfig({
   srcDir: 'src',
   outDir: 'dist',
   extensionApi: 'chrome',
-  modules: ['@wxt-dev/module-react'],
+  modules: ['@wxt-dev/module-react', '@wxt-dev/i18n/module'],
   imports: {
     eslintrc: { enabled: 9 },
   },
   manifest: {
     name: 'Watsonize',
+    default_locale: 'en',
   },
   vite: () => ({
     plugins: [tailwindcss()],
